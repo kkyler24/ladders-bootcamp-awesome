@@ -1,0 +1,97 @@
+.sectFour {
+  height: 300;
+  width: 900;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.years-of-experience {
+  margin-left: 100px;
+}
+
+#years-of-experience {
+  width: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 20px;
+  border-left: 3px solid lightgrey;
+}
+
+#about-in-achivements {
+  width: 200px;
+  font-size: 16px;
+}
+
+.get-in-touch {
+  width: 150px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: #746bea;
+  border: none;
+}
+
+.get-in-touch:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.achievements-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 300px;
+  margin: 0px 0px 0px 100px;
+}
+
+.achievements-numbers-block {
+  width: 150px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0px;
+  padding: 0px;
+}
+
+.achievements-numbers-number {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+.achievements-numbers-note {
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+.logo-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.clients-logo-box {
+  margin: 20px;
+  width: 250px;
+  height: 100px;
+  border: 1px solid lightgray;
+}
+.clients-logo-box:hover {
+  border: 1px solid black;
+}
+
+.clients-logo {
+  width: 250px;
+  height: 100px;
+  transition: transform 0.5s ease;
+  margin: 0px;
+  padding: 0px;
+  opacity: 50%;
+}
+
+.clients-logo:hover {
+  transform: scale(0.9);
+  border: 1px solid black;
+  opacity: 100%;
+}
