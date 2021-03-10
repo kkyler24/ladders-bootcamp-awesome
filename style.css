@@ -156,22 +156,60 @@
 }
 
 footer {
-  background-color: black;
+  background-color: #1c192a;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  color: blanchedalmond;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .footer-contacts {
   flex-direction: column;
-  flex: 1;
+  width: 400px;
+}
+
+.address-block-container {
+    flex-direction: column;
+}
+
+.one-contact-block {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 13px;
+    border-bottom: 1px solid #44424e;
+}
+
+.address-block-name {
+    color: #9F97F9;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.address-block-value {
+    color: white;
+}
+
+.address-block-value:hover {
+    color: #9F97F9;
+}
+
+.social-media-links-container {
+  display: flex;
+  padding: 10px;
+}
+
+.social-media-link {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 .contact-form {
-  flex: 1;
 }
 
 .what-we-offer {
-  flex: 1;
+
 }
 
 .container-nav {
