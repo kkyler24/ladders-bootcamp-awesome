@@ -164,6 +164,7 @@ footer {
 .footer-contacts {
   flex-direction: column;
   width: 375px;
+  margin: 40px;
 }
 
 .address-block-container {
@@ -182,10 +183,12 @@ footer {
     color: #9F97F9;
     text-transform: uppercase;
     margin-right: 10px;
+    font-size: 15px;
 }
 
 .address-block-value {
     color: white;
+    font-size: 15px;
 }
 
 .address-block-value:hover {
@@ -204,6 +207,49 @@ footer {
 }
 
 .contact-form {
+  width: 350px;
+  margin: 40px;
+}
+
+.contact-form h1 {
+  color: #696770;
+}
+
+.input-field-1 {
+  width: 300px;
+  height: 50px;
+  background-color: #2C2B39;
+  border: none;
+  margin: 5px;
+  padding-left: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.input-field-2 {
+  width: 300px;
+  height: 150px;
+  background-color: #2C2B39;
+  border: none;
+  margin: 5px;
+  padding-left: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.send-message {
+  width: 320px;
+  height: 50px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: #756aee;
+  border: none;
 }
 
 .what-we-offer {
