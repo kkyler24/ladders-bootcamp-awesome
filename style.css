@@ -1,0 +1,8 @@
+.container-nav {
+  flex-direction: row-reverse;
+}
+
+.list-inline {
+  display: inline;
+  list-style-type: none;
+}
