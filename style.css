@@ -91,36 +91,38 @@
 }
 
 .sectFour {
-  height: 300;
-  width: 900;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
 
+.sectFour figure {
+  width: 325px;
+}
+
 .years-of-experience {
-  margin-left: 100px;
+  width: 250px;
+  margin-left: 30px;
 }
 
-#years-of-experience {
-  width: 200px;
+.years-of-experience h1 {
   font-size: 30px;
-  font-weight: bold;
   padding-left: 20px;
-  border-left: 3px solid lightgrey;
+  border-left: 3px solid #d7d7d7;
 }
 
-#about-in-achivements {
-  width: 200px;
-  font-size: 16px;
+.about-in-achivements {
+  font-size: 14px;
+  color: #9b9b9b;
 }
 
 .get-in-touch {
-  width: 150px;
+  width: 200px;
   height: 50px;
   text-transform: uppercase;
   font-weight: bold;
   color: white;
-  background-color: #746bea;
+  background-color: #756aee;
   border: none;
 }
 
@@ -130,52 +132,55 @@
   border: 1px solid black;
 }
 
-.achievements-numbers {
+.achievements-numbers-container {
+  width: 400px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  width: 300px;
-  margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 10px;
 }
 
 .achievements-numbers-block {
-  width: 150px;
+  width: 175px;
   text-align: center;
-  border-bottom: 1px solid gray;
-  margin: 0px;
-  padding: 0px;
+  border-bottom: 1px solid #d7d7d7;
+  margin: 10px;
 }
 
 .achievements-numbers-number {
-  font-size: 60px;
-  margin-bottom: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 100px;
 }
 
 .achievements-numbers-note {
-  margin-top: 0px;
-  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  color: #9b9b9b;
 }
 
-.logo-links {
+.logo-links-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 .clients-logo-box {
-  margin: 20px;
   width: 250px;
   height: 100px;
+  align-items: center;
   border: 1px solid lightgray;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 .clients-logo-box:hover {
   border: 1px solid black;
 }
 
 .clients-logo {
-  width: 250px;
   height: 100px;
+  width: 250px;
   transition: transform 0.5s ease;
   margin: 0px;
   padding: 0px;
@@ -186,6 +191,109 @@
   transform: scale(0.9);
   border: 1px solid black;
   opacity: 100%;
+}
+
+footer {
+  background-color: #1c192a;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-contacts {
+  flex-direction: column;
+  width: 375px;
+  margin: 40px;
+}
+
+.address-block-container {
+    flex-direction: column;
+}
+
+.one-contact-block {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 13px;
+    border-bottom: 1px solid #44424e;
+}
+
+.address-block-name {
+    color: #9F97F9;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.address-block-value {
+    color: white;
+    font-size: 12px;
+}
+
+.address-block-value:hover {
+    color: #9F97F9;
+}
+
+.social-media-links-container {
+  display: flex;
+  padding: 10px;
+}
+
+.social-media-link {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.contact-form {
+  width: 350px;
+  margin: 40px;
+}
+
+.contact-form h1 {
+  color: #696770;
+}
+
+.input-field-1 {
+  width: 300px;
+  height: 50px;
+  background-color: #2C2B39;
+  border: none;
+  margin: 5px;
+  padding-left: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.input-field-2 {
+  width: 300px;
+  height: 150px;
+  background-color: #2C2B39;
+  border: none;
+  margin: 5px;
+  padding-left: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.send-message {
+  width: 320px;
+  height: 50px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: #756aee;
+  border: none;
+}
+
+.what-we-offer {
+
 }
 
 .container-nav {
