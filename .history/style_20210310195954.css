@@ -1,9 +1,4 @@
-/* Handles Section Meet The Team */
-.main-container
-{
-    display: flex;
-    flex-wrap: wrap;
-}
+<<<<<<< HEAD
 /* Navbargit  */
 .container-nav {
   display: flex;
@@ -18,35 +13,37 @@
 }
 
 /* Julia Section */
+=======
 /* .sectFive
 {
     position: relative;
     
 } */
 
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
+.main-container
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sectFive h1 {
-  text-align: center;
-  font-size: 42px;
+    text-align: center;
+    font-size: 42px;
 }
 
 .sectFive img {
-  filter: gray;
-  height: 300px;
-  width: 300px;
-  -webkit-filter: grayscale(100%);
-  padding-right: 30px;
-  right: 20%;
-  top: 0px;
+    filter: gray;
+    height: 300px;
+    width: 300px;
+    -webkit-filter: grayscale(100%);
+    padding-right: 30px;
+    right: 20%;
+    top: 0px; 
 }
 
 .sectFive img:hover {
-  filter: none;
-  -webkit-filter: grayscale(0%);
+    filter: none;
+    -webkit-filter: grayscale(0%);
 }
 
 .team-container 
@@ -54,7 +51,6 @@
     display: flex;
     position: relative;
     float: left;
-    margin: auto;
 }
 
 .text-block
@@ -66,58 +62,15 @@
     color: white;
     z-index: 1000;
     bottom: 10px;
-    width: 200px;
+    width: 300px;
     height: 75px;
-    transition: transform .2s ease-in;
-    
 }
 
-.text-block h2,
-.text-block h4
+.teamtext
 {
     margin: 10px 0px 10px 0px;
 }
-
-.team-container {
-  display: flex;
-  position: relative;
-  float: left;
-}
-
-.text-block {
-  position: absolute;
-  text-align: center;
-  background-color: #11111180;
-  /* background-color: blue; */
-  color: white;
-  z-index: 1000;
-  bottom: 10px;
-  width: 300px;
-  height: 75px;
-}
-
-.teamtext {
-  margin: 10px 0px 10px 0px;
-}
-
-.text-block h2:hover
-{
-    color: #7c73fa;
-    transition-delay: .2s;
-}
-
-.text-block:hover
-{
-    width: 300px;
-}
-
-/* Handles What People Say */
-
-.sectSeven h1 {
-    text-align: center;
-    font-size: 42px;
-}
-
+>>>>>>> main
 .sectFour {
   height: 300;
   width: 900;
