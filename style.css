@@ -1,3 +1,4 @@
+
 /* Navbargit  */
 .container-nav {
   display: flex;
@@ -11,13 +12,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* Julia Section */
-/* .sectFive
-{
-    position: relative;
-    
-} */
-
+/* Meet The Team DCT */
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -43,27 +38,58 @@
   -webkit-filter: grayscale(0%);
 }
 
-.team-container {
-  display: flex;
-  position: relative;
-  float: left;
+.team-container 
+{
+    display: flex;
+    position: relative;
+    float: left;
+    margin: auto;
 }
 
-.text-block {
-  position: absolute;
-  text-align: center;
-  background-color: #11111180;
-  /* background-color: blue; */
-  color: white;
-  z-index: 1000;
-  bottom: 10px;
-  width: 300px;
-  height: 75px;
+.text-block
+{
+    position: absolute;
+    text-align: center;
+    background-color: #11111180;
+    color: white;
+    z-index: 1000;
+    bottom: 10px;
+    width: 200px;
+    height: 75px;
+    transition: transform .2s ease-in;
+    
 }
 
-.teamtext {
-  margin: 10px 0px 10px 0px;
+.text-block h2,
+.text-block h4
+{
+    margin: 10px 0px 10px 0px;
 }
+
+.text-block h2:hover
+{
+    color: #7c73fa;
+    transition-delay: .2s;
+}
+
+.text-block:hover
+{
+    width: 300px;
+}
+/* ___________________________________________section 5 ends */
+
+/* Handles What People Say */
+
+
+/* ___________________________________________section 6 ends */
+
+/* Julia Section */
+
+.sectSeven h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
 .sectFour {
   font-family: 'Poppins', sans-serif;
   display: flex;
