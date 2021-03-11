@@ -94,6 +94,7 @@
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .sectFour figure {
@@ -111,9 +112,12 @@
   border-left: 3px solid #d7d7d7;
 }
 
-.about-in-achivements {
+.years-of-experience p {
   font-size: 14px;
+  line-height: 1.8em;
   color: #9b9b9b;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .get-in-touch {
@@ -199,12 +203,18 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .footer-contacts {
   flex-direction: column;
-  width: 375px;
+  width: 350px;
   margin: 40px;
+}
+
+.about-company {
+  font-size: 14px;
+  color: #9b9b9b;
 }
 
 .address-block-container {
@@ -214,21 +224,20 @@ footer {
 .one-contact-block {
     display: flex;
     flex-direction: row;
-    font-weight: bold;
-    font-size: 13px;
     border-bottom: 1px solid #44424e;
+    padding: 10px 0px 10px 0px;
 }
 
 .address-block-name {
     color: #9F97F9;
     text-transform: uppercase;
     margin-right: 10px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .address-block-value {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .address-block-value:hover {
@@ -238,6 +247,7 @@ footer {
 .social-media-links-container {
   display: flex;
   padding: 10px;
+  margin: 20px;
 }
 
 .social-media-link {
@@ -284,6 +294,7 @@ footer {
 .send-message {
   width: 320px;
   height: 50px;
+  margin-top: 10px;
   margin-left: 5px;
   text-transform: uppercase;
   font-weight: bold;
@@ -293,7 +304,23 @@ footer {
 }
 
 .what-we-offer {
+  width: 350px;
+  margin: 40px;
+}
 
+.what-we-offer h1 {
+  color: #696770;
+  font-size: 2em;
+}
+
+.what-we-offer p {
+  height: 40px;
+  margin: 0px;
+  padding-top: 15px;
+  border-bottom: 1px solid #44424e;
+  border-top: 1px solid #44424e;
+  color: white;
+  font-size: 20px;
 }
 
 .container-nav {
