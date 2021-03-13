@@ -12,6 +12,30 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* See All Services */
+
+.services
+{
+  font-family: 'Poppins', sans-serif;  
+  position: relative;
+}
+
+.services h3
+{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.services .button 
+{
+  margin: 8px 0px 0px;
+  padding: 17px 33px 15px;
+  background-color: #756aee;
+  color: white;
+  text-align: center;
+  display: inline;
+}
+
 /* Meet The Team DCT */
 
 .sectFive
@@ -64,13 +88,15 @@
     width: 200px;
     height: 75px;
     transition: transform .2s ease-in;
+    margin: 0;
     
 }
 
 .text-block h2,
 .text-block h4
 {
-    margin: 10px 0px 10px 0px;
+  margin: 0;
+  font-weight: 400;
 }
 
 .text-block h2:hover
