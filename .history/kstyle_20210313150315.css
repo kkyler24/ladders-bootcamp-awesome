@@ -54,9 +54,6 @@ ul.li.a {
 
 .jumboheadline {
   display: flex;
-  flex-direction: column;
-  height: 506px;
-  justify-content: flex-end;
 }
 
 #jumboimgOne {

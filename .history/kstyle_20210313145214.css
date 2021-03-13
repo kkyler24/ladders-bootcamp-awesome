@@ -52,13 +52,6 @@ ul.li.a {
   text-transform: uppercase;
 }
 
-.jumboheadline {
-  display: flex;
-  flex-direction: column;
-  height: 506px;
-  justify-content: flex-end;
-}
-
 #jumboimgOne {
   z-index: 0;
   position: absolute;
