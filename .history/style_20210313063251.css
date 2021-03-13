@@ -112,66 +112,6 @@
   font-size: 42px;
 }
 
-.sectSix {
-  width: 1200px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: auto;
-  font-family: 'Poppins', sans-serif;
-}
-
-.get-more-with-us {
-  width: 450px;
-  margin-right: 50px;
-}
-
-.get-more-with-us h1 {
-  font-size: 42px;
-}
-
-.get-more-with-us h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.numbers {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-bottom: 3px solid #d7d7d7;
-}
-
-.numbers p {
-  font-size: 34px;
-  margin: 0px;
-  color: #9b9b9b;
-}
-
-.numbers p:hover {
-  color: #7c73fa;
-}
-
-.get-more-about-project {
-  font-size: 14px;
-}
-
-.download-presentation {
-  width: 275px;
-  height: 50px;
-  margin-top: 20px;
-  text-transform: uppercase;
-  background-color: white;
-  border: 1px solid black;
-  font-weight: bold;
-}
-
-.download-presentation:hover {
-  color: #756aee;
-  border: 1px solid #756aee;
-}
-
-
 .sectFour {
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -403,4 +343,8 @@ footer {
   border-top: 1px solid #44424e;
   color: white;
   font-size: 20px;
+}
+
+ul.nav-link {
+  justify-self: end;
 }
