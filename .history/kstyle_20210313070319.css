@@ -15,7 +15,7 @@ a.logopic {
   flex-grow: 3;
 }
 
-ul.li.a {
+div.nav-link {
   font-family: "Helvetica", sans-serif;
   font-weight: 500;
 }

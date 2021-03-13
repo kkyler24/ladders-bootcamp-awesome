@@ -12,12 +12,12 @@
 
 a.logopic {
   flex-flow: row;
-  flex-grow: 3;
+  flex-grow: 4;
 }
 
-ul.li.a {
+div.nav-link {
   font-family: "Helvetica", sans-serif;
-  font-weight: 500;
+  font-weight: 200;
 }
 
 /* Jumbotron */

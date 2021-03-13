@@ -344,3 +344,7 @@ footer {
   color: white;
   font-size: 20px;
 }
+
+ul.nav-link {
+  justify-self: end;
+}

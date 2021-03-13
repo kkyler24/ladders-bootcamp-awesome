@@ -11,13 +11,11 @@
 }
 
 a.logopic {
-  flex-flow: row;
-  flex-grow: 3;
+  flex-flow: row-reverse;
 }
 
-ul.li.a {
-  font-family: "Helvetica", sans-serif;
-  font-weight: 500;
+.nav-link {
+  justify-self: self-end;
 }
 
 /* Jumbotron */
