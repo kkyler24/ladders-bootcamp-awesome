@@ -36,30 +36,7 @@ ul.li.a {
 }
 
 .container-jumbo {
-  display: flex;
-  width: 100%;
+  width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
-  height: 576px;
-}
-
-.jumbotext {
-  text-align: center;
-  color: rgb(2, 2, 2);
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-#jumboimgOne {
-  z-index: 0;
-  position: absolute;
-  display: block;
-}
-
-.carousel-item,
-.jumbotext,
-#indext {
-  position: absolute;
-  z-index: 2;
 }

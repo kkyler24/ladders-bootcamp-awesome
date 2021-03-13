@@ -52,6 +52,7 @@ ul.li.a {
 }
 
 #jumboimgOne {
+  width: auto;
   z-index: 0;
   position: absolute;
   display: block;

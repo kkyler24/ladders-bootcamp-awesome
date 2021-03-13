@@ -33,6 +33,7 @@ ul.li.a {
 .jumbotron {
   /* padding: 30px; */
   background-color: #111;
+  height: fit-content;
 }
 
 .container-jumbo {
@@ -40,7 +41,6 @@ ul.li.a {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
-  height: 576px;
 }
 
 .jumbotext {
@@ -52,14 +52,8 @@ ul.li.a {
 }
 
 #jumboimgOne {
+  width: auto;
   z-index: 0;
   position: absolute;
   display: block;
-}
-
-.carousel-item,
-.jumbotext,
-#indext {
-  position: absolute;
-  z-index: 2;
 }

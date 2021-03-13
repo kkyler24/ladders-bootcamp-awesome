@@ -52,6 +52,7 @@ ul.li.a {
 }
 
 #jumboimgOne {
+  max-width: 100%;
   z-index: 0;
   position: absolute;
   display: block;
@@ -60,6 +61,7 @@ ul.li.a {
 .carousel-item,
 .jumbotext,
 #indext {
+  text-align: center;
   position: absolute;
   z-index: 2;
 }

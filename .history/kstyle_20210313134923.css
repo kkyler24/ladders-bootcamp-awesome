@@ -52,14 +52,8 @@ ul.li.a {
 }
 
 #jumboimgOne {
+  width: auto;
   z-index: 0;
   position: absolute;
   display: block;
-}
-
-.carousel-item,
-.jumbotext,
-#indext {
-  position: absolute;
-  z-index: 2;
 }
