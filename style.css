@@ -1,3 +1,4 @@
+
 /* Navbargit  */
 .container-nav {
   display: flex;
@@ -11,13 +12,14 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* Julia Section */
-/* .sectFive
-{
-    position: relative;
-    
-} */
+/* Meet The Team DCT */
 
+.sectFive
+{
+    margin-top: 100px;    
+    margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+}
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -43,58 +45,138 @@
   -webkit-filter: grayscale(0%);
 }
 
-.team-container {
-  display: flex;
-  position: relative;
-  float: left;
+.team-container 
+{
+    display: flex;
+    position: relative;
+    float: left;
+    margin: auto;
 }
 
-.text-block {
-  position: absolute;
+.text-block
+{
+    position: absolute;
+    text-align: center;
+    background-color: #11111180;
+    color: white;
+    z-index: 1000;
+    bottom: 10px;
+    width: 200px;
+    height: 75px;
+    transition: transform .2s ease-in;
+    
+}
+
+.text-block h2,
+.text-block h4
+{
+    margin: 10px 0px 10px 0px;
+}
+
+.text-block h2:hover
+{
+    color: #7c73fa;
+    transition-delay: .2s;
+}
+
+.text-block:hover
+{
+    width: 300px;
+}
+/* ___________________________________________section 5 ends */
+
+/* Handles What People Say */
+
+.sectSeven h2 {
   text-align: center;
-  background-color: #11111180;
-  /* background-color: blue; */
-  color: white;
-  z-index: 1000;
-  bottom: 10px;
-  width: 300px;
-  height: 75px;
+  font-size: 42px;
+  font-family: 'Poppins', sans-serif;
 }
 
-.teamtext {
-  margin: 10px 0px 10px 0px;
+.client-container
+{
+    position: relative;
+    float: left;
+    text-align: left;    
+    padding: 40px 30px;
 }
+
+.client-title .img
+{
+    border-radius: 50%;
+}
+
+.client-title
+{
+  display: inline-block;  
+}
+
+.client-title h4
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    margin: 0;
+    
+}
+.client-title p
+{
+  color: #7c73fa;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.client-body p
+{
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  width: 500px
+}
+/* ___________________________________________section 6 ends */
+
+/* Julia Section */
+
+.sectSeven h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
 .sectFour {
-  height: 300;
-  width: 900;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sectFour figure {
+  width: 325px;
 }
 
 .years-of-experience {
-  margin-left: 100px;
+  width: 250px;
+  margin-left: 30px;
 }
 
-#years-of-experience {
-  width: 200px;
+.years-of-experience h1 {
   font-size: 30px;
-  font-weight: bold;
   padding-left: 20px;
-  border-left: 3px solid lightgrey;
+  border-left: 3px solid #d7d7d7;
 }
 
-#about-in-achivements {
-  width: 200px;
-  font-size: 16px;
+.years-of-experience p {
+  font-size: 14px;
+  line-height: 1.8em;
+  color: #9b9b9b;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .get-in-touch {
-  width: 150px;
+  width: 200px;
   height: 50px;
   text-transform: uppercase;
   font-weight: bold;
   color: white;
-  background-color: #746bea;
+  background-color: #756aee;
   border: none;
 }
 
@@ -104,52 +186,55 @@
   border: 1px solid black;
 }
 
-.achievements-numbers {
+.achievements-numbers-container {
+  width: 400px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  width: 300px;
-  margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 10px;
 }
 
 .achievements-numbers-block {
-  width: 150px;
+  width: 175px;
   text-align: center;
-  border-bottom: 1px solid gray;
-  margin: 0px;
-  padding: 0px;
+  border-bottom: 1px solid #d7d7d7;
+  margin: 10px;
 }
 
 .achievements-numbers-number {
-  font-size: 60px;
-  margin-bottom: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 100px;
 }
 
 .achievements-numbers-note {
-  margin-top: 0px;
-  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  color: #9b9b9b;
 }
 
-.logo-links {
+.logo-links-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 .clients-logo-box {
-  margin: 20px;
   width: 250px;
   height: 100px;
+  align-items: center;
   border: 1px solid lightgray;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 .clients-logo-box:hover {
   border: 1px solid black;
 }
 
 .clients-logo {
-  width: 250px;
   height: 100px;
+  width: 250px;
   transition: transform 0.5s ease;
   margin: 0px;
   padding: 0px;
@@ -160,6 +245,132 @@
   transform: scale(0.9);
   border: 1px solid black;
   opacity: 100%;
+}
+
+footer {
+  background-color: #1c192a;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-contacts {
+  flex-direction: column;
+  width: 350px;
+  margin: 40px;
+}
+
+.about-company {
+  font-size: 14px;
+  color: #9b9b9b;
+}
+
+.address-block-container {
+    flex-direction: column;
+}
+
+.one-contact-block {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #44424e;
+    padding: 10px 0px 10px 0px;
+}
+
+.address-block-name {
+    color: #9F97F9;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.address-block-value {
+    color: white;
+    font-size: 14px;
+}
+
+.address-block-value:hover {
+    color: #9F97F9;
+}
+
+.social-media-links-container {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+}
+
+.social-media-link {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.contact-form {
+  width: 350px;
+  margin: 40px;
+}
+
+.contact-form h1 {
+  color: #696770;
+}
+
+.input-field-1 {
+  width: 300px;
+  height: 50px;
+  background-color: #2C2B39;
+  border: none;
+  margin: 5px;
+  padding-left: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.input-field-2 {
+  width: 300px;
+  height: 150px;
+  background-color: #2C2B39;
+  border: none;
+  margin: 5px;
+  padding-left: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.send-message {
+  width: 320px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: #756aee;
+  border: none;
+}
+
+.what-we-offer {
+  width: 350px;
+  margin: 40px;
+}
+
+.what-we-offer h1 {
+  color: #696770;
+  font-size: 2em;
+}
+
+.what-we-offer p {
+  height: 40px;
+  margin: 0px;
+  padding-top: 15px;
+  border-bottom: 1px solid #44424e;
+  border-top: 1px solid #44424e;
+  color: white;
+  font-size: 20px;
 }
 
 .container-nav {
