@@ -14,26 +14,76 @@
 
 /* See All Services */
 
-.services
+.sectTwo
 {
-  font-family: 'Poppins', sans-serif;  
+  font-family: 'Poppins', sans-serif;
+}
+
+.all-services-container
+{
+  display: flex;
+}
+
+.all-services
+{
   position: relative;
 }
 
-.services h3
+.all-services-block
+{
+  float: left;
+  padding-top: 42px;
+  padding-bottom: 35px;
+  max-width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.all-services-h3
 {
   font-size: 32px;
   font-weight: 500;
 }
 
-.services .button 
+.all-services img
 {
-  margin: 8px 0px 0px;
-  padding: 17px 33px 15px;
-  background-color: #756aee;
+    display: inline-block;
+}
+
+.all-services-button
+{
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
   color: white;
+  background-color: #756aee;
+  border: none;
+}
+
+.corporate-solutions h4
+{
+  font-size: 18px
+}
+
+.corporate-solutions-container
+{ 
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.corporate-solutions-block
+{
   text-align: center;
-  display: inline;
+  padding-top: 42px;
+  padding-bottom: 35px;
+  max-width: 230px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Meet The Team DCT */
