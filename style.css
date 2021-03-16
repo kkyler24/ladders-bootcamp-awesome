@@ -17,9 +17,9 @@
 .sectTwo
 {
   font-family: 'Poppins', sans-serif;
-  position: relative;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;
 }
@@ -27,7 +27,8 @@
 .all-services-container
 {
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
+  width: 50%;
 }
 
 .all-services-img
@@ -49,24 +50,23 @@
     margin-right: auto;
 }
 
-.see-all-services-block
-{
-  text-align: center;
-  width: 200px;
-  height: 200px;
-  padding-top: 75px;
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
 .corporate-solutions-block
 {
   text-align: center;
-  width: 200px;
-  height: 200px;
-  margin-bottom: 20px;
-  padding-right: 30px;
-  padding-left: 30px;
+  width: 230px;
+  height: 230px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+  border: 1px solid lightgray;
+}
+
+.corporate-solutions-block img
+{
+  width: 50px;
 }
 
 .all-services-button
@@ -78,6 +78,11 @@
   color: white;
   background-color: #756aee;
   border: none;
+}
+
+.all-services-button:hover
+{
+  background-color: black;
 }
 
 /* Meet The Team DCT */
