@@ -198,25 +198,26 @@
 }
 /* ___________________________________________section 6 ends */
 
-/* Julia Section */
-
 .sectSeven h1 {
   text-align: center;
   font-size: 42px;
 }
 
+/* Section Six: Get More With Us ----------> */
+
 .sectSix {
-  width: 1200px;
   display: flex;
   flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
   justify-content: space-between;
   margin: auto;
-  font-family: 'Poppins', sans-serif;
+  width: 1200px;
+
 }
 
 .get-more-with-us {
-  width: 450px;
   margin-right: 50px;
+  width: 450px;
 }
 
 .get-more-with-us h1 {
@@ -229,16 +230,16 @@
 }
 
 .numbers {
+  border-bottom: 3px solid #d7d7d7;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 3px solid #d7d7d7;
 }
 
 .numbers p {
-  font-size: 34px;
-  margin: 0px;
   color: #9b9b9b;
+  font-size: 34px;
+  margin: 0;
 }
 
 .numbers p:hover {
@@ -249,26 +250,29 @@
   font-size: 14px;
 }
 
-.download-presentation {
-  width: 275px;
-  height: 50px;
-  margin-top: 20px;
-  text-transform: uppercase;
+.download-presentation-button {
   background-color: white;
   border: 1px solid black;
   font-weight: bold;
+  height: 50px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  width: 275px;
 }
 
-.download-presentation:hover {
-  color: #756aee;
+.download-presentation-button {
   border: 1px solid #756aee;
+  color: #756aee;
 }
 
+/* End of Section Six: Get More With Us <---------- */
+
+/* Section Four: Achievements ----------> */
 
 .sectFour {
-  font-family: "Poppins", sans-serif;
   display: flex;
   flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
   justify-content: center;
 }
 
@@ -276,66 +280,70 @@
   width: 325px;
 }
 
-.years-of-experience {
-  width: 250px;
+.years-of-experience-container {
   margin-left: 30px;
+  width: 250px;
 }
 
-.years-of-experience h1 {
+.years-of-experience-container h1 {
+  border-left: 3px solid #d7d7d7;
   font-size: 30px;
   padding-left: 20px;
-  border-left: 3px solid #d7d7d7;
 }
 
-.years-of-experience p {
+.years-of-experience-container p {
+  color: #9b9b9b;
   font-size: 14px;
   line-height: 1.8em;
-  color: #9b9b9b;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 
-.get-in-touch {
-  width: 200px;
-  height: 50px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: white;
+.get-in-touch-button {
   background-color: #756aee;
   border: none;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  text-transform: uppercase;
+  width: 200px;
 }
 
-.get-in-touch:hover {
+.get-in-touch-button:hover {
   background-color: white;
-  color: black;
   border: 1px solid black;
+  color: black;
 }
 
 .achievements-numbers-container {
-  width: 400px;
   display: flex;
   flex-wrap: wrap;
-  margin: 0px 0px 0px 10px;
+  margin: 0 0 0 10px;
+  width: 400px;
 }
 
 .achievements-numbers-block {
-  width: 175px;
-  text-align: center;
   border-bottom: 1px solid #d7d7d7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 10px;
+  text-align: center;
+  width: 175px;
 }
 
-.achievements-numbers-number {
-  margin: 0px;
-  padding: 0px;
-  font-size: 100px;
+.achievements-numbers-block h2 {
+  font-size: 90px;
+  font-weight: normal;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
 }
 
-.achievements-numbers-note {
-  margin: 0px;
-  padding: 0px;
-  font-size: 14px;
+.achievements-numbers-block p {
   color: #9b9b9b;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
 
 .logo-links-container {
@@ -344,52 +352,62 @@
   flex-wrap: wrap;
 }
 
-.clients-logo-box {
-  width: 250px;
-  height: 100px;
+.logo-links-container figure {
   align-items: center;
   border: 1px solid lightgray;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-top: 20px;
+  height: 100px;
+  margin: 20px 10px 0 10px;
+  width: 250px;
 }
-.clients-logo-box:hover {
+
+.logo-links-container figure:hover {
   border: 1px solid black;
 }
 
-.clients-logo {
+.logo-links-container img {
   height: 100px;
-  width: 250px;
-  transition: transform 0.5s ease;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
   opacity: 50%;
+  padding: 0;
+  transition: transform 0.5s ease;
+  width: 250px;
 }
 
-.clients-logo:hover {
-  transform: scale(0.9);
+.logo-links-container img:hover {
   border: 1px solid black;
   opacity: 100%;
+  transform: scale(0.9);
 }
+
+/* End of Section Four: Achievements <---------- */
+
+/* Footer ----------> */
 
 footer {
   background-color: #1c192a;
-  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
   justify-content: space-around;
 }
 
 .footer-contacts {
+  display: flex;
   flex-direction: column;
-  width: 350px;
-  margin: 40px;
+  justify-content: center;
+  padding: 40px;
+  width: 400px;
+}
+
+.footer-contacts img {
+  width: 50%;
 }
 
 .about-company {
-  font-size: 14px;
   color: #9b9b9b;
+  font-size: 14px;
+  margin-top: 20px;
 }
 
 .address-block-container {
@@ -397,90 +415,84 @@ footer {
 }
 
 .one-contact-block {
+  border-bottom: 1px solid #44424e;
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid #44424e;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0 10px 0;
 }
 
-.address-block-name {
+.one-contact-block h2 {
   color: #9f97f9;
-  text-transform: uppercase;
-  margin-right: 10px;
   font-size: 15px;
+  line-height: 1em;
+  margin: 10px 10px 10px 0;
+  padding: 0;
+  text-transform: uppercase;
 }
 
-.address-block-value {
+.one-contact-block p {
   color: white;
   font-size: 14px;
+  margin: auto 0;
+  padding: 0;
 }
 
-.address-block-value:hover {
+.one-contact-block p:hover {
   color: #9f97f9;
 }
 
 .social-media-links-container {
   display: flex;
-  padding: 10px;
-  margin: 20px;
+  margin: 20px 0 0 0;
 }
 
-.social-media-link {
-  width: 50px;
+.social-media-links-container img {
   height: 50px;
   margin-right: 10px;
+  width: 50px;
 }
 
 .contact-form {
-  width: 350px;
   margin: 40px;
+  width: 400px;
 }
 
 .contact-form h1 {
   color: #696770;
 }
 
-.input-field-1 {
-  width: 300px;
-  height: 50px;
+.input-field-1,
+.input-field-2 {
   background-color: #2c2b39;
   border: none;
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
   margin: 5px;
   padding-left: 20px;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 16px;
+  width: 400px;
 }
 
 .input-field-2 {
-  width: 300px;
   height: 150px;
-  background-color: #2c2b39;
-  border: none;
-  margin: 5px;
-  padding-left: 20px;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 16px;
 }
 
-.send-message {
-  width: 320px;
-  height: 50px;
-  margin-top: 10px;
-  margin-left: 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: white;
+.send-message-button {
   background-color: #756aee;
   border: none;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  margin: 10px 0 0 5px;
+  text-transform: uppercase;
+  width: 420px;
 }
 
 .what-we-offer {
-  width: 350px;
   margin: 40px;
+  width: 400px;
 }
 
 .what-we-offer h1 {
@@ -489,11 +501,13 @@ footer {
 }
 
 .what-we-offer p {
-  height: 40px;
-  margin: 0px;
-  padding-top: 15px;
   border-bottom: 1px solid #44424e;
   border-top: 1px solid #44424e;
   color: white;
   font-size: 20px;
+  height: 40px;
+  margin: 0;
+  padding-top: 15px;
 }
+
+/* End of Footer <---------- */
