@@ -1,3 +1,85 @@
+
+/* Navbargit  */
+.container-nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.list-inline {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* See All Services */
+
+.sectTwo
+{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.all-services-container
+{
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.all-services-img
+{
+  display: inline-block;
+  padding-right: 150px;
+}
+
+.services-title-h4:hover
+{
+  color: #7c73fa;
+  transition-delay: 0.2s;
+}
+
+.corporate-solutions-text
+{
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.see-all-services-block
+{
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  padding-top: 75px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.corporate-solutions-block
+{
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.all-services-button
+{
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: #756aee;
+  border: none;
+}
+
 /* Meet The Team DCT */
 
 .sectFive {
@@ -37,21 +119,25 @@
   margin: auto;
 }
 
-.text-block {
-  position: absolute;
-  text-align: center;
-  background-color: #11111180;
-  color: white;
-  z-index: 1000;
-  bottom: 10px;
-  width: 200px;
-  height: 75px;
-  transition: transform 0.2s ease-in;
+.text-block
+{
+    position: absolute;
+    text-align: center;
+    background-color: #11111180;
+    color: white;
+    z-index: 1000;
+    bottom: 10px;
+    width: 200px;
+    height: 75px;
+    transition: transform .2s ease-in;
+    margin: 0;    
 }
 
 .text-block h2,
-.text-block h4 {
-  margin: 10px 0px 10px 0px;
+.text-block h4
+{
+  margin: 0;
+  font-weight: 400;
 }
 
 .text-block h2:hover {
@@ -65,6 +151,13 @@
 /* ___________________________________________section 5 ends */
 
 /* Handles What People Say */
+
+.sectSeven
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .sectSeven h2 {
   text-align: center;
@@ -100,8 +193,8 @@
 
 .client-body p {
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  width: 500px;
+  font-family: 'Poppins', sans-serif;
+  width: 400px
 }
 /* ___________________________________________section 6 ends */
 
