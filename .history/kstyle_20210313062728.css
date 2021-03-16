@@ -1,0 +1,18 @@
+/* Navbar git  */
+.container-nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.list-inline {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a.logopic {
+  flex-flow: row-reverse;
+}
+
+/* Jumbotron */

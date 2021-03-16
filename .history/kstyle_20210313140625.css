@@ -1,0 +1,70 @@
+/* Navbar git  */
+.container-nav {
+  display: flex;
+}
+
+.list-inline {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a.logopic {
+  flex-flow: row;
+  flex-grow: 3;
+}
+
+ul.li.a {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 500;
+}
+
+/* Jumbotron */
+.jumboPara {
+  text-align: center;
+}
+
+.jumbotron .container-jumbo {
+  max-width: 100%;
+  background-color: #222;
+}
+
+.jumbotron {
+  /* padding: 30px; */
+  background-color: #111;
+}
+
+.container-jumbo {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 576px;
+}
+
+.jumbotext {
+  text-align: center;
+  color: rgb(2, 2, 2);
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#jumboimgOne {
+  z-index: 0;
+  position: absolute;
+  display: block;
+}
+
+.carousel-item {
+  text-align: center;
+  max-width: 100%;
+}
+
+.carousel-item,
+.jumbotext,
+#indext {
+  position: absolute;
+  z-index: 2;
+}
