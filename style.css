@@ -513,7 +513,8 @@ footer {
 }
 
 .footer-contacts img {
-  width: 50%;
+  width: 200px;
+
 }
 
 .about-company {
@@ -591,6 +592,12 @@ footer {
   height: 150px;
 }
 
+.input-field-1:focus,
+.input-field-2:focus {
+  border: 0;
+  outline: 0;
+}
+
 .send-message-button {
   background-color: #756aee;
   border: none;
@@ -620,6 +627,12 @@ footer {
   height: 40px;
   margin: 0;
   padding-top: 15px;
+  transition: all 0.5s;
+}
+
+.what-we-offer p:hover {
+  color: #756aee;
+  letter-spacing: 0.2em;
 }
 
 /* End of Footer <---------- */
