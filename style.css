@@ -173,6 +173,7 @@
 {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   font-family: "Poppins", sans-serif;
 }
@@ -232,7 +233,7 @@
 
 /* Section Six: Get More With Us ----------> */
 
-.sectSix {
+.get-more-with-us-section {
   display: flex;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
@@ -296,14 +297,14 @@
 
 /* Section Four: Achievements ----------> */
 
-.sectFour {
+.achievements-section {
   display: flex;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
   justify-content: center;
 }
 
-.sectFour figure {
+.achievements-section figure {
   width: 325px;
 }
 
