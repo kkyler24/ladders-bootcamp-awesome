@@ -14,7 +14,7 @@
 
 /* See All Services */
 
-.sectTwo
+.all-service-section
 {
   font-family: 'Poppins', sans-serif;
   margin: 0 auto;
@@ -40,7 +40,7 @@
 .services-title-h4:hover
 {
   color: #7c73fa;
-  transition-delay: 0.2s;
+  transition: all 0.3s ease-in-out;
 }
 
 .corporate-solutions-text
@@ -87,22 +87,25 @@
 
 /* Meet The Team DCT */
 
-.sectFive {
+.meet-the-team-section {
   margin-top: 100px;
   margin-bottom: 100px;
   font-family: "Poppins", sans-serif;
 }
-.main-container {
+
+.meet-the-team-main-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.sectFive h1 {
+.meet-the-team-h2 {
   text-align: center;
   font-size: 42px;
+  line-height: 1.66667;
+  font-weight: 500;
 }
 
-.sectFive img {
+.meet-the-team-section img {
   filter: gray;
   height: 300px;
   width: 300px;
@@ -112,19 +115,27 @@
   top: 0px;
 }
 
-.sectFive img:hover {
+.meet-the-team-section img:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
 }
 
-.team-container {
+.meet-team-block {
   display: flex;
   position: relative;
   float: left;
   margin: auto;
 }
 
-.text-block
+.meet-the-team-p
+{
+  line-height: 1.5;
+  letter-spacing: .025em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.meet-team-text-block
 {
     position: absolute;
     text-align: center;
@@ -134,40 +145,47 @@
     bottom: 10px;
     width: 200px;
     height: 75px;
+    justify-content: center;
     transition: transform .2s ease-in;
     margin: 0;    
 }
 
-.text-block h2,
-.text-block h4
+.meet-the-team-h4
 {
   margin: 0;
   font-weight: 400;
+  font-size: 21px;
 }
 
-.text-block h2:hover {
+.meet-the-team-h4:hover {
   color: #7c73fa;
-  transition-delay: 0.2s;
+  transition: all 0.3s ease-in-out;
 }
 
-.text-block:hover {
+.meet-team-text-block:hover {
   width: 300px;
 }
 /* ___________________________________________section 5 ends */
 
 /* Handles What People Say */
 
-.sectSeven
+.what-people-say-section
 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 
-.sectSeven h2 {
+.what-people-say-h2 {
   text-align: center;
   font-size: 42px;
-  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.what-people-say-main-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .client-container {
@@ -185,20 +203,24 @@
   display: inline-block;
 }
 
-.client-title h4 {
-  font-family: "Poppins", sans-serif;
+.client-name-h4 {
   font-size: 21px;
-  margin: 0;
-}
-.client-title p {
-  color: #7c73fa;
-  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   margin: 0;
 }
 
-.client-body p {
+.client-name-h4:hover {
+  color: #7c73fa;
+  transition: all 0.3s ease-in-out;
+}
+
+.client-title p {
+  color: #7c73fa;
+  margin: 0;
+}
+
+.client-body-p {
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
   width: 400px
 }
 /* ___________________________________________section 6 ends */
