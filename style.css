@@ -619,20 +619,36 @@ footer {
   font-size: 2em;
 }
 
-.what-we-offer p {
+.what-we-offer-item {
   border-bottom: 1px solid #44424e;
   border-top: 1px solid #44424e;
-  color: white;
-  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
   height: 40px;
   margin: 0;
   padding-top: 15px;
   transition: all 0.5s;
 }
 
+.what-we-offer p {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
 .what-we-offer p:hover {
   color: #756aee;
   letter-spacing: 0.2em;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 10px solid #44424e;
+  border-bottom: 5px solid transparent;
+  margin: 10px 0;
 }
 
 /* End of Footer <---------- */
