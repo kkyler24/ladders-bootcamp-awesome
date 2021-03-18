@@ -173,6 +173,7 @@
 {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   font-family: "Poppins", sans-serif;
 }
@@ -203,7 +204,9 @@
   display: inline-block;
 }
 
-.client-name-h4 {
+.client-name-h4,
+.block-post-h4
+{
   font-size: 21px;
   font-weight: 400;
   margin: 0;
@@ -219,7 +222,9 @@
   margin: 0;
 }
 
-.client-body-p {
+.client-body-p,
+.blog-post-p
+{
   font-size: 14px;
   width: 400px
 }
@@ -232,7 +237,7 @@
 
 /* Section Six: Get More With Us ----------> */
 
-.sectSix {
+.get-more-with-us-section {
   display: flex;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
@@ -296,14 +301,14 @@
 
 /* Section Four: Achievements ----------> */
 
-.sectFour {
+.achievements-section {
   display: flex;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
   justify-content: center;
 }
 
-.sectFour figure {
+.achievements-section figure {
   width: 325px;
 }
 
@@ -408,6 +413,86 @@
 
 /* End of Section Four: Achievements <---------- */
 
+/* Latest Blog Posts ----------> */
+
+.latest-blog-posts-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  margin: 0 100px 50px 100px;
+}
+
+.post-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* Using h2, h4, and p styles:
+.what-people-say-h2 {} 
+.client-name-h4 {}
+.client-body-p {}
+*/
+
+.block-post-h4 {
+  margin: 20px 0;
+  line-height: 1em;
+}
+
+.blog-post-p {
+  color: #9b9b9b;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+ 
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.post-block figure {
+  width: 370px;
+  height: 307px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.post-cover {
+  width:105%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.post-cover:hover {
+  transform: scale(0.95);
+}
+
+
+.post-date-label {
+  height: 55px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left:0;
+}
+
+.post-label-date {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  font-size: 30px;
+  margin: 0;
+  line-height: 1em;
+  color: #756aee;
+}
+
+/* End of Section Latest Blog Posts <---------- */
+
+
 /* Footer ----------> */
 
 footer {
@@ -428,7 +513,8 @@ footer {
 }
 
 .footer-contacts img {
-  width: 50%;
+  width: 200px;
+
 }
 
 .about-company {
@@ -464,7 +550,7 @@ footer {
   padding: 0;
 }
 
-.one-contact-block p:hover {
+.changing-color:hover {
   color: #9f97f9;
 }
 
@@ -506,6 +592,12 @@ footer {
   height: 150px;
 }
 
+.input-field-1:focus,
+.input-field-2:focus {
+  border: 0;
+  outline: 0;
+}
+
 .send-message-button {
   background-color: #756aee;
   border: none;
@@ -527,14 +619,36 @@ footer {
   font-size: 2em;
 }
 
-.what-we-offer p {
+.what-we-offer-item {
   border-bottom: 1px solid #44424e;
   border-top: 1px solid #44424e;
-  color: white;
-  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
   height: 40px;
   margin: 0;
   padding-top: 15px;
+  transition: all 0.5s;
+}
+
+.what-we-offer p {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.what-we-offer p:hover {
+  color: #756aee;
+  letter-spacing: 0.2em;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 10px solid #44424e;
+  border-bottom: 5px solid transparent;
+  margin: 10px 0;
 }
 
 /* End of Footer <---------- */
