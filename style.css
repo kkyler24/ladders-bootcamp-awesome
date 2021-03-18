@@ -16,11 +16,11 @@
 
 .all-service-section
 {
-  font-family: 'Poppins', sans-serif;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
   justify-content: center;
+  margin: 0 auto;  
   margin-top: 50px;
 }
 
@@ -45,23 +45,23 @@
 
 .corporate-solutions-text
 {
-    max-width: 320px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 320px;
 }
 
 .corporate-solutions-block
 {
-  text-align: center;
-  width: 230px;
-  height: 230px;
-  margin: 10px;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  height: 247px;
   justify-content: center;
+  margin: 10px;
   padding: 5px;
-  align-items: center;
-  border: 1px solid lightgray;
+  text-align: center;
+  padding: 5px;
+  width: 247px;    
 }
 
 .corporate-solutions-block img
@@ -71,13 +71,13 @@
 
 .all-services-button
 {
-  width: 200px;
-  height: 50px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: white;
   background-color: #756aee;
   border: none;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  text-transform: uppercase; 
+  width: 200px;     
 }
 
 .all-services-button:hover
@@ -88,9 +88,22 @@
 /* Meet The Team DCT */
 
 .meet-the-team-section {
-  margin-top: 100px;
-  margin-bottom: 100px;
   font-family: "Poppins", sans-serif;
+  margin-bottom: 100px;
+  margin-top: 100px;  
+}
+
+.meet-the-team-section img {
+  filter: grayscale(100%);
+  height: 300px;
+  padding-right: 30px;
+  right: 20%;
+  top: 0;
+  width: 300px;
+}
+
+.meet-the-team-section img:hover {
+  filter: grayscale(0%);
 }
 
 .meet-the-team-main-container {
@@ -99,62 +112,40 @@
 }
 
 .meet-the-team-h2 {
-  text-align: center;
   font-size: 42px;
-  line-height: 1.66667;
   font-weight: 500;
-}
-
-.meet-the-team-section img {
-  filter: gray;
-  height: 300px;
-  width: 300px;
-  -webkit-filter: grayscale(100%);
-  padding-right: 30px;
-  right: 20%;
-  top: 0px;
-}
-
-.meet-the-team-section img:hover {
-  filter: none;
-  -webkit-filter: grayscale(0%);
+  line-height: 1.66667;
+  text-align: center;  
 }
 
 .meet-team-block {
   display: flex;
-  position: relative;
-  float: left;
   margin: auto;
-}
-
-.meet-the-team-p
-{
-  line-height: 1.5;
-  letter-spacing: .025em;
-  font-weight: 400;
-  margin: 0;
+  position: relative;
 }
 
 .meet-team-text-block
 {
-    position: absolute;
-    text-align: center;
     background-color: #11111180;
-    color: white;
-    z-index: 1000;
     bottom: 10px;
-    width: 200px;
+    color: white;
     height: 75px;
-    justify-content: center;
-    transition: transform .2s ease-in;
-    margin: 0;    
+    position: absolute;     
+    text-align: center;
+    transition: transform .2s ease-in;    
+    width: 200px;
+    z-index: 1000;
+}
+
+.meet-team-text-block:hover {
+  width: 300px;
 }
 
 .meet-the-team-h4
 {
-  margin: 0;
-  font-weight: 400;
   font-size: 21px;
+  font-weight: 400;
+  margin: 0;  
 }
 
 .meet-the-team-h4:hover {
@@ -162,9 +153,14 @@
   transition: all 0.3s ease-in-out;
 }
 
-.meet-team-text-block:hover {
-  width: 300px;
+.meet-the-team-p
+{
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: .025em;  
+  margin: 0;
 }
+
 /* ___________________________________________section 5 ends */
 
 /* Handles What People Say */
@@ -173,14 +169,14 @@
 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   font-family: "Poppins", sans-serif;
+  justify-content: center;  
 }
 
 .what-people-say-h2 {
-  text-align: center;
   font-size: 42px;
   font-weight: 500;
+  text-align: center;
 }
 
 .what-people-say-main-container {
@@ -188,11 +184,11 @@
   flex-wrap: wrap;
 }
 
-.client-container {
-  position: relative;
+.client-container {  
   float: left;
-  text-align: left;
   padding: 40px 30px;
+  position: relative;
+  text-align: left;  
 }
 
 .client-title .img {
