@@ -20,33 +20,14 @@
   flex-wrap: wrap;
   font-family: 'Poppins', sans-serif;
   justify-content: center;
-  margin-top: 50px;
+  margin: 50px 0px 50px 0px;
 }
 
 .all-services-container
 {
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
-}
-
-.all-services-img
-{
-  display: inline-block;
-  padding-right: 150px;
-}
-
-.services-title-h4:hover
-{
-  color: #7c73fa;
-  transition: color 0.3s ease-in-out;
-}
-
-.corporate-solutions-text
-{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 320px;
+  width: 60%;
 }
 
 .corporate-solutions-block
@@ -60,6 +41,13 @@
   min-width: 250px;
   text-align: center;
   width: 250px; 
+}
+
+.corporate-solutions-text
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
 }
 
 .corporate-solutions-block img
@@ -83,28 +71,20 @@
   background-color: black;
 }
 
+.services-title-h4:hover
+{
+  color: #7c73fa;
+  transition: color 0.3s ease-in-out;
+}
+
+
+
 /* Meet The Team DCT */
 
 .meet-the-team-section {
   font-family: "Poppins", sans-serif;
   margin-bottom: 100px;
   margin-top: 100px;  
-}
-
-.meet-the-team-section img {
-  filter: grayscale(100%);
-  height: auto;
-  margin: 0;
-  max-width: 300px;
-}
-
-.meet-the-team-section img:hover {
-  filter: grayscale(0%);
-}
-
-.meet-the-team-main-container {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .meet-the-team-h2 {
@@ -114,10 +94,27 @@
   text-align: center;  
 }
 
+.meet-the-team-main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .meet-team-block {
   display: flex;
   margin: auto;
   position: relative;
+}
+
+
+.meet-team-block img {
+  filter: grayscale(100%);
+  height: auto;
+  margin: 0;
+  max-width: 300px;
+}
+
+.meet-team-block img:hover {
+  filter: grayscale(0%);
 }
 
 .meet-team-text-block
@@ -146,7 +143,7 @@
 
 .meet-the-team-h4:hover {
   color: #7c73fa;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s;
 }
 
 .meet-the-team-p
@@ -187,10 +184,6 @@
   text-align: left;  
 }
 
-.client-title .img {
-  border-radius: 50%;
-}
-
 .client-title {
   display: inline-block;
 }
@@ -205,7 +198,7 @@
 
 .client-name-h4:hover {
   color: #7c73fa;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s;
 }
 
 .client-title p {
