@@ -81,6 +81,72 @@
 
 /* End of Section Six: Get More With Us <---------- */
 
+
+/* See All Services */
+
+.all-service-section
+{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.all-services-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.corporate-solutions-block
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 247px;
+  justify-content: center;
+  margin: 10px;  
+  min-width: 250px;
+  text-align: center;
+  width: 250px; 
+}
+
+.corporate-solutions-text
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+}
+
+.corporate-solutions-block img
+{
+  width: 50px;
+}
+
+.all-services-button
+{
+  background-color: #756aee;
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  text-transform: uppercase; 
+  width: 200px;     
+}
+
+.all-services-button:hover
+{
+  background-color: black;
+}
+
+.services-title-h4:hover
+{
+  color: #7c73fa;
+  transition: color 0.3s ease-in-out;
+}
+
 /* Latest Project Placement */
 
 /* Section Four: Achievements ----------> */
@@ -197,7 +263,6 @@
 
 /* End of Section Four: Achievements <---------- */
 
-
 /* Meet The Team DCT */
 
 .meet-the-team-section {
@@ -275,71 +340,6 @@
 /* ___________________________________________ ends */
 
 /* Get More with Us Placement */
-
-/* See All Services */
-
-.all-service-section
-{
-  display: flex;
-  flex-wrap: wrap;
-  font-family: 'Poppins', sans-serif;
-  justify-content: center;
-  margin: 50px 0px 50px 0px;
-}
-
-.all-services-container
-{
-  display: flex;
-  flex-wrap: wrap;
-  width: 60%;
-}
-
-.corporate-solutions-block
-{
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 247px;
-  justify-content: center;
-  margin: 10px;  
-  min-width: 250px;
-  text-align: center;
-  width: 250px; 
-}
-
-.corporate-solutions-text
-{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 320px;
-}
-
-.corporate-solutions-block img
-{
-  width: 50px;
-}
-
-.all-services-button
-{
-  background-color: #756aee;
-  border: none;
-  color: white;
-  font-weight: bold;
-  height: 50px;
-  text-transform: uppercase; 
-  width: 200px;     
-}
-
-.all-services-button:hover
-{
-  background-color: black;
-}
-
-.services-title-h4:hover
-{
-  color: #7c73fa;
-  transition: color 0.3s ease-in-out;
-}
 
 
 /* Handles What People Say */
