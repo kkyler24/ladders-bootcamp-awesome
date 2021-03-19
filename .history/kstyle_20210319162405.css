@@ -54,6 +54,7 @@ ul.li.a {
 }
 
 .jumbotext {
+  
   color: rgb(2, 2, 2);
   font-weight: 600;
   text-transform: uppercase;
@@ -77,6 +78,7 @@ ul.li.a {
 }
 
 .carousel-item {
+  text-align: center;
   width: 100%;
 }
 
@@ -85,6 +87,7 @@ ul.li.a {
 #indext {
   position: relative;
   z-index: 2;
+  
 }
 
 /* latest Section */
@@ -98,6 +101,7 @@ ul.li.a {
 #latestPara{
  font-size: 18px;
  margin: auto 25% auto 25%;
+ 
 }
 
 #latestPro{
