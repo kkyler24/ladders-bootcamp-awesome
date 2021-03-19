@@ -12,208 +12,6 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* See All Services */
-
-.all-service-section
-{
-  display: flex;
-  flex-wrap: wrap;
-  font-family: 'Poppins', sans-serif;
-  justify-content: center;
-  margin: 50px 0px 50px 0px;
-}
-
-.all-services-container
-{
-  display: flex;
-  flex-wrap: wrap;
-  width: 60%;
-}
-
-.corporate-solutions-block
-{
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 247px;
-  justify-content: center;
-  margin: 10px;  
-  min-width: 250px;
-  text-align: center;
-  width: 250px; 
-}
-
-.corporate-solutions-text
-{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 320px;
-}
-
-.corporate-solutions-block img
-{
-  width: 50px;
-}
-
-.all-services-button
-{
-  background-color: #756aee;
-  border: none;
-  color: white;
-  font-weight: bold;
-  height: 50px;
-  text-transform: uppercase; 
-  width: 200px;     
-}
-
-.all-services-button:hover
-{
-  background-color: black;
-}
-
-.services-title-h4:hover
-{
-  color: #7c73fa;
-  transition: color 0.3s ease-in-out;
-}
-
-
-
-/* Meet The Team DCT */
-
-.meet-the-team-section {
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 100px;
-  margin-top: 100px;  
-}
-
-.meet-the-team-h2 {
-  font-size: 42px;
-  font-weight: 500;
-  line-height: 1.66667;
-  text-align: center;  
-}
-
-.meet-the-team-main-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.meet-team-block {
-  display: flex;
-  margin: auto;
-  position: relative;
-}
-
-
-.meet-team-block img {
-  filter: grayscale(100%);
-  height: auto;
-  margin: 0;
-  max-width: 300px;
-}
-
-.meet-team-block img:hover {
-  filter: grayscale(0%);
-}
-
-.meet-team-text-block
-{
-    background-color: #11111180;
-    bottom: 10px;
-    color: white;
-    padding: 10px;
-    position: absolute;     
-    text-align: center;
-    transition: transform .2s ease-in;    
-    width: 200px;
-    z-index: 1000;
-}
-
-.meet-team-text-block:hover {
-  width: 300px;
-}
-
-.meet-the-team-h4
-{
-  font-size: 21px;
-  font-weight: 400;
-  margin: 0;  
-}
-
-.meet-the-team-h4:hover {
-  color: #7c73fa;
-  transition: all 0.3s;
-}
-
-.meet-the-team-p
-{
-  font-weight: 400;
-  letter-spacing: .025em;
-  line-height: 1.5;    
-  margin: 0;
-}
-
-/* ___________________________________________section 5 ends */
-
-/* Handles What People Say */
-
-.what-people-say-section
-{
-  display: flex;
-  flex-wrap: wrap;
-  font-family: "Poppins", sans-serif;
-  justify-content: center;  
-}
-
-.what-people-say-h2 {
-  font-size: 42px;
-  font-weight: 500;
-  text-align: center;
-}
-
-.what-people-say-main-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.client-container {  
-  float: left;
-  padding: 40px 30px;
-  position: relative;
-  text-align: left;  
-}
-
-.client-title {
-  display: inline-block;
-}
-
-.client-name-h4,
-.block-post-h4
-{
-  font-size: 21px;
-  font-weight: 400;
-  margin: 0;
-}
-
-.client-name-h4:hover {
-  color: #7c73fa;
-  transition: all 0.3s;
-}
-
-.client-title p {
-  color: #7c73fa;
-  margin: 0;
-}
-
-.client-body-p,
-.blog-post-p
-{
-  font-size: 14px;
-  width: 400px
-}
-/* ___________________________________________section 6 ends */
-
 .sectSeven h1 {
   text-align: center;
   font-size: 42px;
@@ -282,6 +80,74 @@
 }
 
 /* End of Section Six: Get More With Us <---------- */
+
+
+/* See All Services */
+
+.all-service-section
+{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.all-services-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.corporate-solutions-block
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 247px;
+  justify-content: center;
+  margin: 10px;  
+  min-width: 250px;
+  text-align: center;
+  width: 250px; 
+}
+
+.corporate-solutions-text
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+}
+
+.corporate-solutions-block img
+{
+  width: 50px;
+}
+
+.all-services-button
+{
+  background-color: #756aee;
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  text-transform: uppercase; 
+  width: 200px;     
+}
+
+.all-services-button:hover
+{
+  background-color: black;
+}
+
+.services-title-h4:hover
+{
+  color: #7c73fa;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Latest Project Placement */
 
 /* Section Four: Achievements ----------> */
 
@@ -396,6 +262,143 @@
 }
 
 /* End of Section Four: Achievements <---------- */
+
+/* Meet The Team DCT */
+
+.meet-the-team-section {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 100px;
+  margin-top: 100px;  
+}
+
+.meet-the-team-h2 {
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.66667;
+  text-align: center;  
+}
+
+.meet-the-team-main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meet-team-block {
+  display: flex;
+  margin: auto;
+  position: relative;
+}
+
+
+.meet-team-block img {
+  filter: grayscale(100%);
+  height: auto;
+  margin: 0;
+  max-width: 300px;
+}
+
+.meet-team-block img:hover {
+  filter: grayscale(0%);
+}
+
+.meet-team-text-block
+{
+    background-color: #11111180;
+    bottom: 10px;
+    color: white;
+    padding: 10px;
+    position: absolute;     
+    text-align: center;
+    transition: transform .2s ease-in;    
+    width: 200px;
+    z-index: 1000;
+}
+
+.meet-team-text-block:hover {
+  width: 300px;
+}
+
+.meet-the-team-h4
+{
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0;  
+}
+
+.meet-the-team-h4:hover {
+  color: #7c73fa;
+  transition: all 0.3s;
+}
+
+.meet-the-team-p
+{
+  font-weight: 400;
+  letter-spacing: .025em;
+  line-height: 1.5;    
+  margin: 0;
+}
+/* ___________________________________________ ends */
+
+/* Get More with Us Placement */
+
+
+/* Handles What People Say */
+
+.what-people-say-section
+{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;  
+}
+
+.what-people-say-h2 {
+  font-size: 42px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.what-people-say-main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.client-container {  
+  float: left;
+  padding: 40px 30px;
+  position: relative;
+  text-align: left;  
+}
+
+.client-title {
+  display: inline-block;
+}
+
+.client-name-h4,
+.block-post-h4
+{
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.client-name-h4:hover {
+  color: #7c73fa;
+  transition: all 0.3s;
+}
+
+.client-title p {
+  color: #7c73fa;
+  margin: 0;
+}
+
+.client-body-p,
+.blog-post-p
+{
+  font-size: 14px;
+  width: 400px
+}
+/* ___________________________________________section 6 ends */
 
 /* Latest Blog Posts ----------> */
 
