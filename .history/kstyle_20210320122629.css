@@ -146,10 +146,9 @@ li.latestButtons{
 
 .latestGallery{
 display: block;
- height:800px ;
+ height: max-content;
   width: auto;
   margin-top: 10px;
-  margin-bottom: 5%;
 }
 
 .latestGallery img{
