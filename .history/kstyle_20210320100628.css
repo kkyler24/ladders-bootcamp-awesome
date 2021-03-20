@@ -113,20 +113,6 @@ margin-bottom: 3%;
 
 
 }
-#latestRow button{
-  color: gray;
-  font-weight: 200px;
+#latestRow.div{
   padding: 5%;
-  margin: 10px;
- font-size: 18px;
- background-color: transparent;
- border-right-width: 2px;
- border-color: rgb(162, 164, 165);
- border-left: none;
- border-top: none;
- border-bottom: none;
- width: max-content;
- text-transform: uppercase;
-
- 
 }
