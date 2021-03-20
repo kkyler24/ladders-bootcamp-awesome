@@ -132,7 +132,8 @@ margin: 3%;
  border-top: transparent;
  border-left: transparent;
  border-bottom: transparent;
- border-right: 3px solid #cecdcd;
+ border-right-color: lightslategray;
+ 
 }
 ul{
   padding: 0px;
@@ -144,16 +145,8 @@ li.latestButtons{
   list-style: none;
 }
 
-.latestGallery{
-display: block;
- height: 450px;
+#latestGallery{
+ float:left
+  height: 400px;
   width: auto;
-  margin-top: 10px;
-}
-
-.latestGallery img{
-  width: 30%;
-  float: left;
-  margin: 1.66%;
-  
 }

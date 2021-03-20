@@ -114,8 +114,9 @@ display: flex;
 justify-content: center;
 margin: 3%;
 
-}
 
+
+}
 #latestRow button{
   color: gray;
   font-weight: 200px;
@@ -132,28 +133,11 @@ margin: 3%;
  border-top: transparent;
  border-left: transparent;
  border-bottom: transparent;
- border-right: 3px solid #cecdcd;
+ border-right-color: lightslategray;
+ border-color: rgb(148, 157, 165);
 }
-ul{
-  padding: 0px;
-}
-#uxli{
-  border-right: transparent;
-}
+
 li.latestButtons{
   list-style: none;
-}
-
-.latestGallery{
-display: block;
- height: 450px;
-  width: auto;
-  margin-top: 10px;
-}
-
-.latestGallery img{
-  width: 30%;
-  float: left;
-  margin: 1.66%;
   
 }

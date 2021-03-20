@@ -114,46 +114,23 @@ display: flex;
 justify-content: center;
 margin: 3%;
 
-}
 
+
+}
 #latestRow button{
   color: gray;
   font-weight: 200px;
   padding: 3%;
   margin: 5px;
   margin-right: 0px;
-  height: 55px;
  font-size: 18px;
  letter-spacing: .1em;
  background-color: transparent;
  width: 165px;
  text-transform: uppercase;
- border-radius: 2px;
- border-top: transparent;
- border-left: transparent;
- border-bottom: transparent;
- border-right: 3px solid #cecdcd;
 }
-ul{
-  padding: 0px;
-}
-#uxli{
-  border-right: transparent;
-}
+
 li.latestButtons{
   list-style: none;
-}
-
-.latestGallery{
-display: block;
- height: 450px;
-  width: auto;
-  margin-top: 10px;
-}
-
-.latestGallery img{
-  width: 30%;
-  float: left;
-  margin: 1.66%;
   
 }

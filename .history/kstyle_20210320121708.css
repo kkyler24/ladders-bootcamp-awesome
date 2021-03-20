@@ -146,14 +146,13 @@ li.latestButtons{
 
 .latestGallery{
 display: block;
- height: 450px;
+  height: 400px;
   width: auto;
   margin-top: 10px;
 }
 
 .latestGallery img{
   width: 30%;
-  float: left;
-  margin: 1.66%;
-  
+    float: left;
+    margin: 1.66%;
 }
